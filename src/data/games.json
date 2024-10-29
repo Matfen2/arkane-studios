@@ -1,0 +1,178 @@
+[
+	{
+		"id": "1",
+		"title": "Marvel's Blade",
+		"imageKey": "marvelsBlade",
+		"cover": "../assets/picts/marvelsBlade/marvelsBlade.png",
+		"trailer": "https://www.youtube.com/watch?v=basLDO2bj2k&t=3s",
+		"x": "https://x.com/BladeGameCD",
+		"instagram": "https://www.instagram.com/bladegame/?hl=fr",
+		"youtube": "https://www.youtube.com/watch?v=basLDO2bj2k&t=3s",
+		"story": "Le jeu Marvel’s Blade emmènera les joueurs dans un quartier de Paris placé en quarantaine à la suite d'un phénomène surnaturel.Des vampires ont surgi dans la Ville Lumière, terrorisant ses habitants et les forçant à se calfeutrer chez eux la nuit en attendant le lever du jour.",
+		"pictures": [
+			"../../assets/picts/marvelsBlade/marvelsBladeGameplayFirst.png",
+			"./picts/marvelsBlade/marvelsBladeGameplaySecond.png",
+			"./picts/marvelsBlade/marvelsBladeGameplayThird.png",
+			"./picts/marvelsBlade/marvelsBladeGameplayFour.png"
+		],
+		"jacket": "./picts/marvelsBlade/marvelsBladeJacket.png",
+		"jacketWallpaper": "./picts/marvelsBlade/marvelsBladeJacketWallpaper.png"
+	},
+	{
+		"id": "2",
+		"title": "Redfall",
+		"imageKey": "redfall",
+		"cover": "./picts/redfall/redfallCover.png",
+		"trailer": "https://www.youtube.com/watch?v=7KEOcDfbjLk",
+		"facebook": "https://www.facebook.com/playRedfall.FR/?brand_redir=101735158049037",
+		"x": "https://x.com/playRedfall",
+		"instagram": "https://www.instagram.com/playRedfall/",
+		"youtube": "https://www.youtube.com/playlist?list=PLn_FCfFYTxswDwMFETmp8Q0moglkzIT_M",
+		"story": "La ville insulaire de Redfall, dans le Massachusetts, est assiégée par une légion de vampires qui ont bloqué le soleil et coupé les citoyens du monde extérieur. Explorez le monde ouvert et immergez-vous dans une campagne narrative profonde alors que vous dévoilez le mystère de l'apparition des vampires. Alliez-vous à une poignée de survivants contre les créatures qui menacent de vider la ville de son sang.",
+		"pictures": [
+			"./picts/redfall/redfallGameplayFirst.png",
+			"./picts/redfall/redfallGameplaySecond.png",
+			"./picts/redfall/redfallGameplayThird.png",
+			"./picts/redfall/redfallGameplayFour.png"
+		],
+		"jacket": "./picts/redfall/redfallJacket.png",
+		"jacketWallpaper": "./picts/redfall/redfallJacketWallpaper.png",
+		"xbox": "https://www.xbox.com/fr-FR/games/redfall",
+		"steam": "https://store.steampowered.com/app/1294810/Redfall/?l=french&curator_clanid=40987507"
+	},
+	{
+		"id": "3",
+		"title": "Deathloop",
+		"imageKey": "deathloop",
+		"cover": "./picts/deathloop/deathloopCover.jpg",
+		"trailer": "https://www.youtube.com/watch?v=W_CwX8tVr8o",
+		"facebook": "https://www.facebook.com/DEATHLOOPgame.fr/?brand_redir=2287965641480123",
+		"x": "https://x.com/deathloop",
+		"instagram": "https://www.instagram.com/deathloopgame",
+		"youtube": "https://www.youtube.com/playlist?list=PLn_FCfFYTxsxIDmHwneYuySET7rY97nCm",
+		"story": "DEATHLOOP est un FPS nouvelle génération d'Arkane Lyon, le studio acclamé à l'origine de Dishonored. Dans DEATHLOOP, deux assassins rivaux sont piégés dans une mystérieuse boucle temporelle sur l'île de Blackreef, condamnés à répéter la même journée pour l'éternité. Dans la peau de Colt, votre seule chance de vous échapper est de mettre fin au cycle en découvrant des informations et en assassinant huit cibles clés avant que la journée ne recommence. Apprenez à chaque cycle, essayez d'autres itinéraires et approches, trouvez de nouvelles armes et aptitudes. Vous devez tout tenter pour briser la boucle.",
+		"pictures": [
+			"./picts/deathloop/deathloopGameplayFirst.png",
+			"./picts/deathloop/deathloopGameplaySecond.png",
+			"./picts/deathloop/deathloopGameplayThird.png",
+			"./picts/deathloop/deathloopGameplayFour.png"
+		],
+		"jacket": "./picts/deathloop/deathloopJacket.png",
+		"jacketWallpaper": "./picts/deathloop/deathloopJacketWallpaper.png",
+		"playstation": "https://store.playstation.com/fr-fr/product/EP1003-PPSA01670_00-DE1CDXDLOOPDELUX/",
+		"xbox": "https://www.xbox.com/fr-be/games/store/deathloop/9p5z4530318l",
+		"steam": "https://store.steampowered.com/app/1252330/DEATHLOOP/?l=french&curator_clanid=4777282"
+	},
+	{
+		"id": "4",
+		"title": "Prey",
+		"imageKey": "prey",
+		"cover": "./picts/prey/preyCover.png",
+		"trailer": "https://www.youtube.com/watch?v=nNn2iOASy7c",
+		"facebook": "https://www.facebook.com/prey.fr/?brand_redir=499747783554834",
+		"x": "https://x.com/PreyGame",
+		"youtube": "https://www.youtube.com/watch?v=GWxVP2lIjUc&list=PLn_FCfFYTxsws0cqERn2QGMs-oEpyaSK6",
+		"story": "Dans Prey, vous vous réveillez au cours de l'année 2032, à bord de Talos I, une station spatiale en orbite autour de la lune. Vous êtes le sujet clef d'une expérience censée altérer l'humanité à jamais, mais la situation s'est transformée en cauchemar. La station spatiale a été envahie par des extraterrestres hostiles et vous êtes désormais une proie.",
+		"pictures": [
+			"./picts/prey/preyGameplayFirst.png",
+			"./picts/prey/preyGameplaySecond.png",
+			"./picts/prey/preyGameplayThird.png",
+			"./picts/prey/preyGameplayFour.png"
+		],
+		"jacket": "./picts/prey/preyJacket.png",
+		"jacketWallpaper": "./picts/prey/preyJacketWallpaper.png",
+		"playstation": "https://store.playstation.com/fr-fr/product/EP1003-CUSA04482_00-PREYPS4FULLGAME1",
+		"xbox": "https://www.xbox.com/fr-FR/games/store/prey/BQMVWCMB8P59/0001",
+		"steam": "https://store.steampowered.com/app/480490/Prey/"
+	},
+	{
+		"id": "5",
+		"title": "Dishonored La Mort de l'Outsider",
+		"imageKey": "dishonoredDeathOfOutsider",
+		"cover": "./picts/dishonoredDeathOfOutsider/dishonoredDeathOfOutsiderCover.jpg",
+		"trailer": "https://www.youtube.com/watch?v=nNn2iOASy7c",
+		"facebook": "https://www.facebook.com/dishonored.fr/?brand_redir=132820953467175",
+		"x": "https://x.com/dishonored",
+		"instagram": "https://www.instagram.com/Bethesda",
+		"youtube": "https://www.youtube.com/playlist?list=PLF2DC671C31193181",
+		"story": "Dans cet opus, Billie, une ancienne alliée de Daud (un assassin légendaire et ancien mentor de Billie), part en quête pour accomplir un dernier objectif : tuer l’Outsider, une mystérieuse entité dotée de pouvoirs surnaturels qui influence le destin des personnages et le cours de l’histoire depuis le premier jeu.",
+		"pictures": [
+			"./picts/dishonoredDeathOfOutsider/dishonoredDeathOfOutsiderGameplayFirst.png",
+			"./picts/dishonoredDeathOfOutsider/dishonoredDeathOfOutsiderGameplaySecond.png",
+			"./picts/dishonoredDeathOfOutsider/dishonoredDeathOfOutsiderGameplayThird.jpg",
+			"./picts/dishonoredDeathOfOutsider/dishonoredDeathOfOutsiderGameplayFour.jpg"
+		],
+		"jacket": "./picts/dishonoredDeathOfOutsider/dishonoredDeathOfOutsiderJacket.png",
+		"jacketWallpaper": "./picts/dishonoredDeathOfOutsider/dishonoredDeathOfOutsiderJacketWallpaper.png",
+		"playstation": "https://www.playstation.com/fr-fr/games/dishonored-death-of-the-outsider/",
+		"xbox": "https://www.xbox.com/fr-FR/games/store/dishonored-la-mort-de-loutsider/c5f2xdqppjkz",
+		"steam": "https://store.steampowered.com/app/614570/Dishonored_Death_of_the_Outsider/"
+	},
+	{
+		"id": "6",
+		"title": "Dishonored 2",
+		"imageKey": "dishonored2",
+		"cover": "./picts/dishonored2/dishonored2Cover.png",
+		"trailer": "https://www.youtube.com/watch?v=aTzTYSZETWc&list=PLF2DC671C31193181&index=27",
+		"facebook": "https://www.facebook.com/dishonored.fr/?brand_redir=132820953467175",
+		"x": "https://x.com/dishonored",
+		"instagram": "https://www.instagram.com/Bethesda",
+		"youtube": "https://www.youtube.com/playlist?list=PLF2DC671C31193181",
+		"story": "Dishonored 2 se déroule 15 ans après la défaite du Lord Régent, au moment où la Peste n'est plus qu'un mauvais souvenir. Un usurpateur d'un autre monde s'est emparé du trône de l'impératrice Emily Kaldwin, laissant le destin des Îles incertain. En incarnant Emily ou Corvo, vous voyagerez au-delà des rues emblématiques de Dunwall jusqu'à Karnaca, une ville côtière autrefois florissante détenant le secret qui permettra de faire revenir Emily au pouvoir. Armé de la marque de l'Outsider et de nouveaux pouvoirs surnaturels puissants, traquez vos ennemis et reprenez ce qui vous appartient.",
+		"pictures": [
+			"./picts/dishonored2/dishonored2GameplayFirst.png",
+			"./picts/dishonored2/dishonored2GameplaySecond.jpg",
+			"./picts/dishonored2/dishonored2GameplayThird.jpg",
+			"./picts/dishonored2/dishonored2GameplayFour.jpg"
+		],
+		"jacket": "./picts/dishonored2/dishonored2Jacket.png",
+		"jacketWallpaper": "./picts/dishonored2/dishonored2JacketWallpaper.jpg",
+		"playstation": "https://store.playstation.com/fr-fr/product/EP1003-CUSA03603_00-DISHONOREDTWOPS4",
+		"xbox": "https://www.xbox.com/fr-FR/games/store/dishonored-2/9mw4rjdrsf78",
+		"steam": "https://store.steampowered.com/app/403640/Dishonored_2/"
+	},
+	{
+		"id": "7",
+		"title": "Dishonored",
+		"imageKey": "dishonored",
+		"cover": "./picts/dishonored/",
+		"trailer": "https://www.youtube.com/watch?v=OwFJEJw7jSI&list=PLF2DC671C31193181&index=36",
+		"facebook": "https://www.facebook.com/prey.fr/?brand_redir=499747783554834",
+		"x": "https://x.com/dishonored",
+		"instagram": "https://www.instagram.com/Bethesda",
+		"youtube": "https://www.youtube.com/playlist?list=PLF2DC671C31193181",
+		"story": "Dishonored a pour toile de fond Dunwall, une ville industrielle de chasseurs de baleines où coexistent d'étranges technologies et un mysticisme transcendantal. Accusé à tort de l'assassinat de l'Impératrice, dont vous étiez le fidèle garde du corps, vous devenez un assassin redouté de tous qui se cache derrière son masque sinistre. En ces temps troublés, alors que la ville est frappée par une terrible épidémie et ploie sous le joug d'un gouvernement oppressif armé de technologies néo-industrielles, des forces obscures s'apprêtent à vous conférer des aptitudes surhumaines... mais à quel prix ? La vérité qui se cache derrière votre prétendue trahison est aussi trouble que les eaux qui entourent la ville. Vous ne retrouverez jamais votre vie passée.",
+		"pictures": [
+			"./picts/prey/preyGameplayFirst.png",
+			"./picts/prey/preyGameplaySecond.png",
+			"./picts/prey/preyGameplayThird.png",
+			"./picts/prey/preyGameplayFour.png"
+		],
+		"jacket": "./picts/prey/preyJacket.png",
+		"jacketWallpaper": "./picts/prey/preyJacketWallpaper.png",
+		"jacketDescription": "Dans Prey, vous vous réveillez au cours de l'année 2032, à bord de Talos I, une station spatiale en orbite autour de la lune. Vous êtes le sujet clef d'une expérience censée altérer l'humanité à jamais, mais la situation s'est transformée en cauchemar.",
+		"playstation": "https://store.playstation.com/fr-fr/product/EP1003-CUSA04482_00-PREYPS4FULLGAME1",
+		"xbox": "https://www.xbox.com/fr-FR/games/store/prey/BQMVWCMB8P59/0001",
+		"steam": "https://store.steampowered.com/app/480490/Prey/"
+	},
+	{
+		"id": "8",
+		"title": "Arx Fatalis",
+		"imageKey": "arxFatalis",
+		"cover": "./picts/arxFatalis/arxFatalisCover.png",
+		"trailer": "https://www.youtube.com/watch?v=KMm22gl2dJo",
+		"facebook": "https://www.facebook.com/p/arx-fatalis-100069464032619/",
+		"x": "https://x.com/ArkaneStudios",
+		"youtube": "https://www.youtube.com/watch?v=KMm22gl2dJo",
+		"story": "Arx est ravagé par le chaos, poussé à la limite de la destruction par une guerre ravageuse. Le soleil a disparu des cieux et le monde est plongé dans les ténèbres, forçant la population à s'installer dans les mines souterraines. Mais alors que la nourriture et l'eau commencent à manquer, les affrontements s'intensifient dans la lutte pour la survie des différentes races, des trolls aux humains en passant par les gobelins et les hommes-rats. Le mal a pris vie dans ce monde sans lumière sous la forme d'Akbaa, le Dieu de la destruction. C'est à vous qu'il incombe de vaincre Akbaa et de sauver Arx de son règne de terreur.",
+		"pictures": [
+			"./picts/arxFatalis/arxFatalisGameplayFirst.png",
+			"./picts/arxFatalis/arxFatalisGameplaySecond.png",
+			"./picts/arxFatalis/arxFatalisGameplayThird.png",
+			"./picts/arxFatalis/arxFatalisGameplayFour.png"
+		],
+		"jacket": "./picts/arxFatalis/arxFatalisJacket.png",
+		"jacketWallpaper": "./picts/arxFatalis/arxFatalisJacketWallpaper.png",
+		"steam": "https://store.steampowered.com/app/1700/Arx_Fatalis/"
+	}
+]

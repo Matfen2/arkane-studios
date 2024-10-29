@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "title": "Technical Animator - Rigger",
+    "department": "Art",
+    "responsibilities" : [
+        "Une bonne compréhension des contraintes provenant de la conception du jeu, du moteur et du matériel.",
+        "Définir les contraintes techniques relatives aux personnages et aux objets animés.",
+        "Intégrer les ressources dans le moteur et assurer le respect des contraintes et le suivi des performances.",
+        "Créez des plates-formes et des skins avancés pour les personnages, les créatures et les accessoires.",
+        "Créer et soutenir des outils pour améliorer le pipeline de rigging et d'animation, en fonction des besoins du projet.",
+        "Aider les équipes artistiques à résoudre les problèmes techniques.",
+        "Configuration des personnages ragdolls et de la physique des vêtements.",
+        "Collaborer et partager des connaissances sur les dernières veilles technologiques avec d'autres artistes techniques du studio."
+    ],
+    "qualifications": [
+      "Connaissance approfondie de Maya et Python.",
+      "Excellentes compétences en matière de gréage et de déformation (corps/visage).",
+      "Bonnes compétences en communication orale et écrite.",
+      "Faire preuve d'esprit d'équipe, d'autonomie et d'organisation.",
+      "Trouver un équilibre entre esthétique, convivialité et complexité technique.",
+      "Une expérience avec MotionBuilder est un plus."
+    ],
+    "hrefSite": "https://careers-zenimax.icims.com/jobs/2486/technical-animator---rigger/job?mobile=false&width=1455&height=500&bga=true&needsRedirect=false&jan1offset=60&jun1offset=120"
+  },
+  {
+    "id": 2,
+    "title": "Level Artist",
+    "department": "Art",
+    "responsibilities" : [
+        "Rassembler des références visuelles et rédiger des documentations.",
+        "Gérer aussi bien l'agencement des volumes urbains que l'architecture ou la décoration d'un lieu.",
+        "Créez des prototypes architecturaux 3D basés sur des images de référence et des concepts artistiques.",
+        "Demande d'accessoires et de textures aux artistes Env.",
+        "Intégrer les ressources finales dans le moteur de jeu en mettant l'accent sur l'ambiance et la narration environnementale.",
+        "Trouver l'équilibre entre les aspects artistiques, les intentions de gameplay et les contraintes techniques.",
+        "Collaborer quotidiennement avec plusieurs disciplines, notamment les concepteurs de niveaux, les artistes environnementaux et la direction artistique pour discuter et comprendre les intentions et la vision du jeu."
+    ],
+    "qualifications": [
+      "Au moins 2 ans d'expérience dans la création d'environnements en temps réel, la modélisation ou toute autre expérience pertinente.",
+      "Un portefeuille solide axé sur des travaux d'architecture ou des environnements complets.",
+      "Connaissance d'un logiciel 3D (Blender fortement recommandé) et de techniques d'optimisation.",
+      "Solides compétences en communication et en relations interpersonnelles, en anglais et en français.",
+      "Curiosité, flexibilité, débrouillardise, éthique de travail et attitude collaborative.",
+      "Être habitué à travailler sur des tâches de manière autonome, à fournir des résultats à temps avec efficacité et cohérence.",
+      "Créativité, sens du détail et forte capacité à raconter des histoires à travers l'art des niveaux.",
+      "Bonne compréhension des fondamentaux de l'art : éclairage, composition, théorie des couleurs, etc.",
+      "Capacité à travailler avec des mesures d'architecture et de conception de niveaux.",
+      "Une bonne compréhension des sujets techniques liés à l'art est un plus."
+    ],
+    "hrefSite": "https://careers-zenimax.icims.com/jobs/2840/level-artist/job"
+  },
+  {
+    "id": 3,
+    "title": "Engine Programmer",
+    "department": "Engineering/Programming",
+    "responsibilities" : [
+        "Écrire du code qui répond aux exigences fonctionnelles et techniques du projet.",
+        "Développer et optimiser le code des sous-systèmes du moteur en tirant pleinement parti du matériel et de l'architecture cibles.",
+        "Travailler avec la technologie logicielle existante du studio et créer une nouvelle technologie afin de répondre aux exigences techniques du projet..",
+        "Rechercher des techniques de codage et des algorithmes afin de se tenir au courant des développements et des avancées technologiques dans l'industrie du jeu.",
+        "Identifier les risques/obstacles techniques et de développement et générer des solutions pour surmonter les risques identifiés."
+    ],
+    "qualifications": [
+      "Solides connaissances en C/C++",
+      "Une bonne connaissance du bas niveau / matériel (CPU, cache, SIMD…) est un plus.",
+      "Capacité à se lancer sans crainte dans de grandes bases de code existantes.",
+      "Capacité à apporter des idées innovantes et originales à tous les aspects de la production et du développement de jeux.",
+      "Solides compétences en communication et en organisation.",
+      "La connaissance du développement de console est un plus."
+    ],
+    "hrefSite": "https://careers-zenimax.icims.com/jobs/3079/engine-programmer/job"
+  },
+  {
+    "id": 4,
+    "title": "Graphics Programmer",
+    "department": "Engineering/Programming",
+    "responsibilities" : [
+        "Améliorer et maintenir les modules de rendu du moteur de jeu.",
+        "Développer des shaders et des effets de qualité pour soutenir la direction artistique et le style visuel unique du jeu.",
+        "Optimisez le code de rendu pour obtenir les meilleures performances sur toutes les plateformes.",
+        "Écrire du code C++ clair, maintenable et portable.",
+        "Écrire et maintenir des shaders personnalisés sur une gamme de matériels.",
+        "Travailler bien avec d'autres ingénieurs, artistes et concepteurs."
+    ],
+    "qualifications": [
+      "Solides connaissances en C/C++.",
+      "Fort intérêt pour les algorithmes de rendu.",
+      "Bonne connaissance de toutes les API graphiques de bas niveau.",
+      "Possibilité de déboguer des graphiques à l'aide de pix, renderdoc ou d'outils similaires.",
+      "Solide compréhension des systèmes en temps réel et multithread.",
+      "Bonnes compétences en gestion du temps et en organisation.",
+      "Bonnes compétences en communication orale et écrite en français et en anglais."
+    ],
+    "hrefSite": "https://careers-zenimax.icims.com/jobs/3080/graphics-programmer/job"
+  },
+  {
+    "id": 5,
+    "title": "Environment Artist",
+    "department": "Art",
+    "responsibilities" : [
+        "Modélisez et texturez des ressources 3D telles que des accessoires et des kits modulaires à utiliser dans le moteur de jeu en vous basant sur des concepts artistiques ou des documents de référence inspirants.",
+        "Aligner leurs livrables via la direction artistique en utilisant les normes définies par le style du jeu dans leur modélisation et leurs textures.",
+        "Collaborer quotidiennement avec plusieurs disciplines, notamment les concepteurs de niveaux, les artistes de niveaux et la direction artistique pour discuter et comprendre les intentions et la vision du jeu."
+    ],
+    "qualifications": [
+      "Solide expérience dans la création d'actifs environnementaux à l'aide de méthodes de rendu contemporaines en temps réel.",
+      "Compréhension des logiciels de modélisation 3D modernes.",
+      "Être autonome, force de proposition et à l'aise dans la recherche de références.",
+      "Solide joueur d'équipe avec une forte éthique de travail et une attitude coopérative.",
+      "Travailleur motivé et concentré avec de bonnes compétences en communication et en collaboration.",
+      "Volonté d'entreprendre des travaux de R&D technique liés à la création d'environnements de jeu.",
+      "Expérience avec Substance Suite et Blender."
+    ],
+    "hrefSite": "https://careers-zenimax.icims.com/jobs/3088/environment-artist/job"
+  },
+  {
+    "id": 6,
+    "title": "World Designer",
+    "department": "Design",
+    "responsibilities" : [
+        "Créez et maintenez une boîte à outils créative qui guide les concepteurs dans la création de contenu en dehors de la campagne principale, des quêtes secondaires aux vignettes narratives, qui donnent vie aux environnements du jeu tout en prenant en charge les thèmes et les systèmes du jeu.",
+        "Assurer une bonne diffusion de ce contenu en fonction des besoins et particularités des différents environnements.",
+        "Rationalisez le type et la quantité de contenu qui peut être créé par l’équipe tout en équilibrant les interactions sur mesure avec celles récurrentes pour favoriser la curiosité des joueurs.",
+        "Travaillez en étroite collaboration avec le département Art et Narration pour assurer une bonne répartition des ressources qui renforcent la cohérence et la profondeur narratives à travers le jeu.",
+        "Coordonnez-vous avec l'équipe de conception du système pour vous assurer que les systèmes globaux pilotés par simulation sont exprimés au joueur de manière intéressante et organique.",
+        "Tests ad hoc des missions et des environnements du jeu pour fournir un retour éclairé aux équipes et les aider à rendre le monde unique, immersif et réactif."
+    ],
+    "qualifications": [
+      "Expérience et parcours exceptionnels en World Design.",
+      "Forte affinité pour les terrains de jeux systémiques et riches en histoires.",
+      "Intérêt et compréhension de la philosophie de la simulation immersive.",
+      "Excellentes compétences interpersonnelles avec des profils et des disciplines variés.",
+      "Solide compréhension de la psychologie du joueur",
+      "Expérience pertinente dans la création/possession de documentation de vie claire, complète et pratique.",
+      "Expérience dans l'utilisation de packages/éditeurs d'édition spécifiques au jeu.",
+      "Sait comment favoriser, puis organiser les bonnes idées de toute l'équipe et les transformer en conceptions solides.",
+      "Bon présentateur capable de susciter l'enthousiasme et le soutien pour les choix et décisions de conception convenus."
+    ],
+    "hrefSite": "https://careers-zenimax.icims.com/jobs/3090/world-designer/job"
+  },
+  {
+    "id": 7,
+    "title": "Animator",
+    "department": "Art",
+    "responsibilities" : [
+        "Créer des animations pour des séquences de gameplay et de narration (images clés ou en utilisant mocap).",
+        "Prototypage, intégration dans le jeu, tests et finition.",
+        "Respecter le style visuel défini par la direction artistique.",
+        "Participer à des séances de capture de mouvement."
+    ],
+    "qualifications": [
+      "Excellente connaissance de Maya.",
+      "Excellente compréhension des principes de l'animation (timing, espacement, pose).",
+      "Excellente compréhension de la mécanique corporelle.",
+      "Expérience solide en keyframe.",
+      "Expérience avec le moteur de jeu.",
+      "Expérience de montage Mocap",
+      "Esprit d'équipe."
+    ],
+    "hrefSite": "https://careers-zenimax.icims.com/jobs/3092/animator/job"
+  }
+]

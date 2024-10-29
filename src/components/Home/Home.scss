@@ -1,0 +1,71 @@
+.home {
+
+  // PRESENT
+  .present {
+    height: 950px; 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/picts/arkane/arkaneStudioHome.png');
+  }
+
+  // ABOUT
+  .about {
+    background-color: black;
+    padding: 15px 120px 15px 120px;
+
+    .description {
+      width: 1600px;
+      color: azure;
+      font-size: 1.4em;
+      font-weight: bold;
+      margin: auto;
+    }
+  }
+
+  // STUDIO
+  .studio {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/picts/prey/preyJacketWallpaper.png');
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+
+    h2 {
+      color: white;
+      font-size: 2em;
+      margin-top: 20px;
+    }
+
+    .img-fluid {
+      width: auto;
+      height: 370px;
+      border-radius: 15px;
+      opacity: 0.7;
+      transition: all 0.3s ease;
+
+      &:hover {
+        height: 390px;
+        opacity: 1.0;
+      }
+    }
+  }
+
+  // Games
+  .games {
+    padding: 30px 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+
+    h2 {
+      margin-bottom: 20px;
+      font-size: 2em;
+    }
+  }
+}
