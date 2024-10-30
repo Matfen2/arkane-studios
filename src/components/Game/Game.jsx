@@ -19,6 +19,16 @@ import dishonored2 from '../../assets/picts/dishonored2/dishonored2Cover.png';
 import dishonored from '../../assets/picts/dishonored/dishonoredCover.jpg';
 import arxFatalis from '../../assets/picts/arxFatalis/arxFatalisCover.png';
 
+// Importation de toutes les images de jacketWallpaper
+import marvelsBladeJacketWallpaper from '../../assets/picts/marvelsBlade/marvelsBladeJacketWallpaper.png';
+import redfallJacketWallpaper from '../../assets/picts/redfall/redfallJacketWallpaper.png';
+import deathloopJacketWallpaper from '../../assets/picts/deathloop/deathloopJacketWallpaper.png';
+import preyJacketWallpaper from '../../assets/picts/prey/preyJacketWallpaper.png';
+import dishonoredDeathOfOutsiderJacketWallpaper from '../../assets/picts/dishonoredDeathOfOutsider/dishonoredDeathOfOutsiderJacketWallpaper.png';
+import dishonored2JacketWallpaper from '../../assets/picts/dishonored2/dishonored2JacketWallpaper.png';
+import dishonoredJacketWallpaper from '../../assets/picts/dishonored/dishonoredJacketWallpaper.png';
+import arxFatalisJacketWallpaper from '../../assets/picts/arxFatalis/arxFatalisJacketWallpaper.png';
+
 
 // Importation des images spécifiques pour chaque jeu (gameplay, etc.)
 // Marvels Blade
@@ -134,6 +144,18 @@ const pictures = {
   ]
 };
 
+// Mapping des images de jacketWallpaper
+const jacketWallpapers = {
+  marvelsBlade: marvelsBladeJacketWallpaper,
+  redfall: redfallJacketWallpaper,
+  deathloop: deathloopJacketWallpaper,
+  prey: preyJacketWallpaper,
+  dishonoredDeathOfOutsider: dishonoredDeathOfOutsiderJacketWallpaper,
+  dishonored2: dishonored2JacketWallpaper,
+  dishonored: dishonoredJacketWallpaper,
+  arxFatalis: arxFatalisJacketWallpaper,
+};
+
 const Game = () => {
   const { id } = useParams();
   const gameInfo = games.find((game) => game.id === id);
@@ -142,69 +164,70 @@ const Game = () => {
   return (
     <div className="game">
       <div className="present" style={{ backgroundImage: `url(${images[gameInfo.imageKey]})` }}>
-        <div className='container'>
-          <div className='row'>
-            <div className='col-lg-10'>
-              <p className="pitch">{gameInfo.story}</p>
-            </div>
-            <div className='col-lg-2'>
-              <div className="listBtnSupport">
-                <button type="button" className='btnPlaystation'>
-                  <a href={gameInfo.playstation} target="_blank" rel="noopener noreferrer">
-                  <i class="fa-brands fa-playstation"></i>
-                    PLAYSTATION
-                  </a>
-                </button>
-                <button type="button" className='btnXbox'>
-                  <a href={gameInfo.xbox} target="_blank" rel="noopener noreferrer">
-                    <i class="fa-brands fa-xbox"></i>
-                    XBOX
-                  </a>
-                </button>
-                <button type="button" className='btnSteam'>
-                  <a href={gameInfo.steam} target="_blank" rel="noopener noreferrer">
-                    <i class="fa-brands fa-steam"></i>
-                    STEAM
-                  </a>
-                </button>
-              </div>
-            </div>
-          </div>
+        <div className='story'>
+          <p className="pitch">{gameInfo.story}</p>
         </div>
       </div>
-      <div className="pict">
-        <Swiper
-          style={{
-            '--swiper-navigation-color': '#fff',
-            '--swiper-pagination-color': '#fff',
-          }}
-          spaceBetween={10}
-          navigation={true}
-          thumbs={{ swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null }}
-          modules={[FreeMode, Navigation, Thumbs]}
-          className="mySwiper2"
-        >
-          {pictures[gameInfo.imageKey]?.map((picture, index) => (
-            <SwiperSlide key={index}>
-              <img src={picture} className="img-fluid w-100" alt={`slide-${index + 1}`} />
-            </SwiperSlide>
-          ))}
-        </Swiper>
-        <Swiper
-          onSwiper={setThumbsSwiper}
-          spaceBetween={10}
-          slidesPerView={4}
-          freeMode={true}
-          watchSlidesProgress={true}
-          modules={[FreeMode, Navigation, Thumbs]}
-          className="mySwiper"
-        >
-          {pictures[gameInfo.imageKey]?.map((picture, index) => (
-            <SwiperSlide key={index}>
-              <img src={picture} className="img-fluid w-100" alt={`thumbnail-${index + 1}`} />
-            </SwiperSlide>
-          ))}
-        </Swiper>
+      <div
+        className="pict"
+        style={{
+          backgroundImage: `url(${jacketWallpapers[gameInfo.imageKey]})`,
+        }}
+      >
+          <div className='swiper-content'>
+          <Swiper
+            style={{
+              '--swiper-navigation-color': '#fff',
+              '--swiper-pagination-color': '#fff',
+            }}
+            spaceBetween={10}
+            navigation={true}
+            thumbs={{ swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null }}
+            modules={[FreeMode, Navigation, Thumbs]}
+            className="mySwiper2"
+          >
+            {pictures[gameInfo.imageKey]?.map((picture, index) => (
+              <SwiperSlide key={index}>
+                <img src={picture} className="img-fluid w-100" alt={`slide-${index + 1}`} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+          <Swiper
+            onSwiper={setThumbsSwiper}
+            spaceBetween={10}
+            slidesPerView={4}
+            freeMode={true}
+            watchSlidesProgress={true}
+            modules={[FreeMode, Navigation, Thumbs]}
+            className="mySwiper"
+          >
+            {pictures[gameInfo.imageKey]?.map((picture, index) => (
+              <SwiperSlide key={index}>
+                <img src={picture} className="img-fluid w-100" alt={`thumbnail-${index + 1}`} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+          </div>
+          <div className="listBtnSupport">
+          <button type="button" className='btnPlaystation'>
+            <a href={gameInfo.playstation} target="_blank" rel="noopener noreferrer">
+              <i className="fa-brands fa-playstation"></i>
+              PLAYSTATION
+            </a>
+          </button>
+          <button type="button" className='btnXbox'>
+            <a href={gameInfo.xbox} target="_blank" rel="noopener noreferrer">
+              <i className="fa-brands fa-xbox"></i>
+              XBOX
+            </a>
+          </button>
+          <button type="button" className='btnSteam'>
+            <a href={gameInfo.steam} target="_blank" rel="noopener noreferrer">
+              <i className="fa-brands fa-steam"></i>
+              STEAM
+            </a>
+          </button>
+        </div>
       </div>
     </div>
   );
