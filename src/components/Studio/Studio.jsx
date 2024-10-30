@@ -15,21 +15,14 @@ const Studio = () => {
     <div className='studio'>
       {/* TEAM */}
       <div className='team'>
-        <div className='join'>
-          <h2>REJOINGEZ NOTRE EQUIPE</h2>
+        <div className='about'>
+          <p className='description'>
+            Rejoindre Arkane Lyon, c'est l'opportunité de collaborer et d'évoluer au sein d'une équipe passionnée, sur des technologies de pointe et des jeux innovants appréciés par des millions de joueurs. Vous travaillerez dans un environnement stimulant et accueillant dans nos bureaux situés dans le quartier de la Confluence à Lyon (France), un lieu de verdure, de sport, de gastronomie et de musique.
+          </p>
           <button type='button'>
             <a href='#jobs'>CARRIERES</a>
           </button>
         </div>
-      </div>
-      {/* ABOUT */}
-      <div className='about'>
-        <h2>Arkane Studio Lyon</h2>
-        <p className='description'>Les bureaux d'Arkane Studios en France se situent au centre de Lyon, dans le quartier branché de la Confluence, un endroit populaire pour la nature, les sports, la nourriture et la musique. </p>
-        <br />
-        <p className='description'>Lyon est la deuxième plus grosse ville de France et est renommée pour sa gastronomie, ainsi que ses monuments historiques et architecturaux, dont certains sont inscrits au Patrimoine mondial de l'UNESCO.</p>
-        <br />
-        <p className='description'>La ville est également connue pour sa Fête des Lumières qui se tient pendant quatre jours autour du 8 décembre et qui donne à Lyon le titre mérité de Ville des Lumières.</p>
       </div>
       {/* PROJECT */}
       <div className='project'>

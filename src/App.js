@@ -2,7 +2,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Studio from "./components/Studio/Studio";
-import Game from "./components/Game/Game";
+import Games from "./components/Game/Game";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 function App() {
   return (
@@ -13,7 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/studio" element={<Studio />} />
-          <Route path="/game/:id" element={<Game />} />
+          <Route path="/games/:id" element={<Games />} />
         </Routes>
       </main>
     </Router>

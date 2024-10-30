@@ -1,5 +1,4 @@
 .home {
-
   // PRESENT
   .present {
     height: 950px; 
@@ -7,19 +6,24 @@
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('../../assets/picts/arkane/arkaneStudioHome.png');
-  }
 
-  // ABOUT
-  .about {
-    background-color: black;
-    padding: 15px 120px 15px 120px;
+    .about {
+      position: absolute; 
+      bottom: 1%; 
+      left: 0;
+      width: 100%;
+      max-width: 2200px;
+      background: rgba(0, 0, 0, 0.5); 
+      color: #f1f1f1;
+      padding: 20px; 
 
-    .description {
-      width: 1600px;
-      color: azure;
-      font-size: 1.4em;
-      font-weight: bold;
-      margin: auto;
+      .description {
+        text-align: center;
+        color: azure;
+        font-size: 1.4em;
+        font-weight: bold;
+        margin: 0 auto; 
+      }
     }
   }
 
