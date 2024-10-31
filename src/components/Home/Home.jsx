@@ -11,16 +11,19 @@ const Home = () => {
       <div className='present'>
         <div className='about'>
           <p className='description'>
-          Fondé en 1999, Arkane® Studios s'est développé pour devenir l'une des équipes de développement les plus reconnues de l'industrie du jeu vidéo. Arkane s'est construit une réputation de créateur de jeux au style unique et à l'action immersive avec une approche artisanale.
-          Les titres du studio, dont Dishonored®, Dishonored 2, Prey® et DEATHLOOP™, ont remporté de nombreuses reconnaissances prestigieuses dans le monde entier, parmi lesquelles plusieurs titres "Game of the Year".
+          Fondé en 1999, Arkane Studios s'est développé pour devenir l'une des équipes de développement les plus reconnues de l'industrie du jeu vidéo. Arkane s'est construit une réputation de créateur de jeux au style unique et à l'action immersive avec une approche artisanale.
+          Les titres du studio, dont Dishonored, Dishonored 2, Prey et DEATHLOOP, ont remporté de nombreuses reconnaissances prestigieuses dans le monde entier, parmi lesquelles plusieurs titres "Game of the Year".
           </p>
         </div>
       </div>
 
       <div className='studio'>
         <h2>STUDIO</h2>
-        <NavLink to="/studio">
+        <NavLink to="/studio" className='studio-link'>
           <img src={studioLyon} alt='studioLyon' className='img-fluid w-100' />
+          <div className='location'>
+            <p>Lyon, France</p>
+          </div>
         </NavLink>
       </div>
 

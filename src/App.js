@@ -5,6 +5,7 @@ import Studio from "./components/Studio/Studio";
 import Games from "./components/Game/Game";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/games/:id" element={<Games />} />
         </Routes>
       </main>
+      <Footer />
     </Router>
   );
 }

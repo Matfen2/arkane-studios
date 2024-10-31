@@ -12,30 +12,9 @@
   .img-fluid {
     padding: 0px 10px;
     height: 80px;
-  }
 
-  .listHref {
-    align-items: center;
-    .href {
-      @include flex(row);
-      column-gap: 80px;
-      padding: 6px 20px 0px 20px;
-      list-style-type: none;
-
-      .hrefTravel {
-        transition: all ease-in 0.9ms; 
-
-        a {
-          font-size: 1.1em;
-          color: azure;
-          text-decoration: none;
-        }
-
-        &:hover {
-          font-weight: bold;
-          transform: scale(1.1);
-        }
-      }
+    @media screen and (max-width: 768px) {
+      height: 60px;
     }
   }
 }

@@ -1,0 +1,95 @@
+// Variables et mixin
+$firstColor: azure;
+$secondColor: #333;
+$firstFont: zrnic;
+
+@font-face {
+  font-family: $firstFont;
+  src: url('../../assets/fonts/Zrnic.otf');
+}
+
+@mixin flex ($flexDirection) {
+  display: flex;
+  align-items: center;
+  background-color: $secondColor;
+  flex-direction: $flexDirection;
+}
+
+.footer {
+  border: none;
+  padding: 3px 15px;
+  @include flex (row);
+  justify-content: space-between;
+  
+  .copy {
+    font-size: 1.4em;
+    color: $firstColor;
+    margin-top: 10px;
+    font-family: $firstFont;
+
+    @media screen and (max-width: 600px) {
+      font-size: 1.2em;
+      margin-top: 15px;
+    }
+
+    @media screen and (max-width: 461px) {
+      font-size: 1.0em;
+      margin-top: 18px;
+    }
+
+    @media screen and (max-width: 320px) {
+      font-size: 0.9em;
+      margin-top: 18px;
+    }
+  }
+
+  .listSocial {
+    column-gap: 70px;
+    @include flex (row);
+    list-style-type: none;
+
+    @media screen and (max-width: 600px) {
+      column-gap: 50px;
+    }
+
+    @media screen and (max-width: 461px) {
+      column-gap: 40px;
+    }
+
+    @media screen and (max-width: 375px) {
+      column-gap: 20px;
+    }
+
+    li {
+      transition: all ease-in 0.4ms;
+
+      a {
+        font-size: 1.4em;
+        color: $firstColor;
+        text-decoration: none;
+        transition: all ease-in 0.4ms;
+
+        @media screen and (max-width: 600px) {
+          font-size: 1.2em;
+        }
+
+        @media screen and (max-width: 461px) {
+          font-size: 1.0em;
+        }
+
+        @media screen and (max-width: 375px) {
+          font-size: 0.8em;
+        }
+
+        &:hover {
+          text-shadow: 0 0 5px #FFF, 16px -15px 7px rgba(206,89,55,0);
+        }
+      }
+
+      &:hover {
+        transform: scale(1.2);
+      }
+
+    }
+  }
+}

@@ -166,6 +166,22 @@ const Game = () => {
       <div className="present" style={{ backgroundImage: `url(${images[gameInfo.imageKey]})` }}>
         <div className='story'>
           <p className="pitch">{gameInfo.story}</p>
+          <div className='listVideo'>
+            {gameInfo.trailer && (
+            <button type="button" className="btnTrailer">
+              <a href={gameInfo.trailer} target="_blank" rel="noopener noreferrer">
+               TRAILER
+              </a>
+            </button>
+            )}
+            {gameInfo.gameplay && (
+            <button type="button" className="btnGameplay">
+              <a href={gameInfo.gameplay} target="_blank" rel="noopener noreferrer">
+                GAMEPLAY
+              </a>
+            </button>
+            )}
+          </div>
         </div>
       </div>
       <div
@@ -174,7 +190,7 @@ const Game = () => {
           backgroundImage: `url(${jacketWallpapers[gameInfo.imageKey]})`,
         }}
       >
-          <div className='swiper-content'>
+        <div className='swiper-content'>
           <Swiper
             style={{
               '--swiper-navigation-color': '#fff',
@@ -207,26 +223,32 @@ const Game = () => {
               </SwiperSlide>
             ))}
           </Swiper>
-          </div>
-          <div className="listBtnSupport">
-          <button type="button" className='btnPlaystation'>
-            <a href={gameInfo.playstation} target="_blank" rel="noopener noreferrer">
-              <i className="fa-brands fa-playstation"></i>
-              PLAYSTATION
-            </a>
-          </button>
-          <button type="button" className='btnXbox'>
-            <a href={gameInfo.xbox} target="_blank" rel="noopener noreferrer">
-              <i className="fa-brands fa-xbox"></i>
-              XBOX
-            </a>
-          </button>
-          <button type="button" className='btnSteam'>
-            <a href={gameInfo.steam} target="_blank" rel="noopener noreferrer">
-              <i className="fa-brands fa-steam"></i>
-              STEAM
-            </a>
-          </button>
+        </div>
+        <div className="listBtnSupport">
+          {gameInfo.playstation && (
+            <button type="button" className="btnPlaystation">
+              <a href={gameInfo.playstation} target="_blank" rel="noopener noreferrer">
+                <i className="fa-brands fa-playstation"></i>
+                PLAYSTATION
+              </a>
+            </button>
+          )}
+          {gameInfo.xbox && (
+            <button type="button" className="btnXbox">
+              <a href={gameInfo.xbox} target="_blank" rel="noopener noreferrer">
+                <i className="fa-brands fa-xbox"></i>
+                XBOX
+              </a>
+            </button>
+          )}
+          {gameInfo.steam && (
+            <button type="button" className="btnSteam">
+              <a href={gameInfo.steam} target="_blank" rel="noopener noreferrer">
+                <i className="fa-brands fa-steam"></i>
+                STEAM
+              </a>
+            </button>
+          )}
         </div>
       </div>
     </div>

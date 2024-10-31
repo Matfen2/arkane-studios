@@ -1,10 +1,22 @@
+// Variables et mixin
+$firstColor: #333;
+$secondColor: black;
+$thirdColor: #FF9317;
+$firstFont: technovier;
+$secondFont: zrnic;
+
+@font-face {
+  font-family: $firstFont;
+  src: url('../../assets/fonts/Zrnic.otf');
+}
+
 .card {
   width: 100%;
   margin: 10px auto;
   cursor: pointer;
   border: none;
   box-shadow: none;
-  border: 1px solid #333;;
+  border: 1px solid $firstColor;;
   
 
   .infoGame {
@@ -16,7 +28,7 @@
     height: 100%;
     width: 100%;
     opacity: 0;
-    background-color: black;
+    background-color: $secondColor;
     transition: all ease-in 0.2s;
 
     &:hover {
@@ -24,18 +36,28 @@
     }
 
     .see {
-      color: #FF9317;
-      font-size: 20px;
+      color: $thirdColor;
+      font-size: 1.0em;
       position: absolute;
       top: 50%;
       left: 50%;
       padding: 10px;
       font-weight: bold;
-      border: 6px solid #FF9317;
+      letter-spacing: 2px;
+      font-family: $firstFont;
+      border: 6px solid $thirdColor;
       -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
       text-align: center;
+
+      @media screen and (max-width: 1199px) {
+        font-size: 1.0em;
+      }
+
+      @media screen and (max-width: 991px) {
+        font-size: 0.7em;
+      }
     }
   }
 }

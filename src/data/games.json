@@ -11,9 +11,7 @@
 			"./picts/marvelsBlade/marvelsBladeGameplaySecond.png",
 			"./picts/marvelsBlade/marvelsBladeGameplayThird.png",
 			"./picts/marvelsBlade/marvelsBladeGameplayFour.png"
-		],
-		"jacket": "./picts/marvelsBlade/marvelsBladeJacket.png",
-		"jacketWallpaper": "./picts/marvelsBlade/marvelsBladeJacketWallpaper.png"
+		]
 	},
 	{
 		"id": "2",
@@ -21,6 +19,7 @@
 		"imageKey": "redfall",
 		"cover": "./picts/redfall/redfallCover.png",
 		"trailer": "https://www.youtube.com/watch?v=7KEOcDfbjLk",
+		"gameplay": "https://www.youtube.com/watch?v=K5hw0srzDbg&list=PLn_FCfFYTxswDwMFETmp8Q0moglkzIT_M&index=3",
 		"story": "La ville insulaire de Redfall, dans le Massachusetts, est assiégée par une légion de vampires qui ont bloqué le soleil et coupé les citoyens du monde extérieur. Explorez le monde ouvert et immergez-vous dans une campagne narrative profonde alors que vous dévoilez le mystère de l'apparition des vampires. Alliez-vous à une poignée de survivants contre les créatures qui menacent de vider la ville de son sang.",
 		"pictures": [
 			"./picts/redfall/redfallGameplayFirst.png",
@@ -37,6 +36,7 @@
 		"imageKey": "deathloop",
 		"cover": "./picts/deathloop/deathloopCover.jpg",
 		"trailer": "https://www.youtube.com/watch?v=W_CwX8tVr8o",
+		"gameplay": "https://www.youtube.com/watch?v=SMcT8n_vkgs&list=PLn_FCfFYTxsxIDmHwneYuySET7rY97nCm&index=10",
 		"story": "DEATHLOOP est un FPS nouvelle génération d'Arkane Lyon, le studio acclamé à l'origine de Dishonored. Dans DEATHLOOP, deux assassins rivaux sont piégés dans une mystérieuse boucle temporelle sur l'île de Blackreef, condamnés à répéter la même journée pour l'éternité. Dans la peau de Colt, votre seule chance de vous échapper est de mettre fin au cycle en découvrant des informations et en assassinant huit cibles clés avant que la journée ne recommence. Apprenez à chaque cycle, essayez d'autres itinéraires et approches, trouvez de nouvelles armes et aptitudes. Vous devez tout tenter pour briser la boucle.",
 		"pictures": [
 			"./picts/deathloop/deathloopGameplayFirst.png",
@@ -44,8 +44,6 @@
 			"./picts/deathloop/deathloopGameplayThird.png",
 			"./picts/deathloop/deathloopGameplayFour.png"
 		],
-		"jacket": "./picts/deathloop/deathloopJacket.png",
-		"jacketWallpaper": "./picts/deathloop/deathloopJacketWallpaper.png",
 		"playstation": "https://store.playstation.com/fr-fr/product/EP1003-PPSA01670_00-DE1CDXDLOOPDELUX/",
 		"xbox": "https://www.xbox.com/fr-be/games/store/deathloop/9p5z4530318l",
 		"steam": "https://store.steampowered.com/app/1252330/DEATHLOOP/?l=french&curator_clanid=4777282"
@@ -56,6 +54,7 @@
 		"imageKey": "prey",
 		"cover": "./picts/prey/preyCover.png",
 		"trailer": "https://www.youtube.com/watch?v=nNn2iOASy7c",
+		"gameplay": "https://www.youtube.com/watch?v=zRaZaD64WlY&list=PLn_FCfFYTxsws0cqERn2QGMs-oEpyaSK6&index=26",
 		"story": "Dans Prey, vous vous réveillez au cours de l'année 2032, à bord de Talos I, une station spatiale en orbite autour de la lune. Vous êtes le sujet clef d'une expérience censée altérer l'humanité à jamais, mais la situation s'est transformée en cauchemar. La station spatiale a été envahie par des extraterrestres hostiles et vous êtes désormais une proie.",
 		"pictures": [
 			"./picts/prey/preyGameplayFirst.png",
@@ -63,8 +62,6 @@
 			"./picts/prey/preyGameplayThird.png",
 			"./picts/prey/preyGameplayFour.png"
 		],
-		"jacket": "./picts/prey/preyJacket.png",
-		"jacketWallpaper": "./picts/prey/preyJacketWallpaper.png",
 		"playstation": "https://store.playstation.com/fr-fr/product/EP1003-CUSA04482_00-PREYPS4FULLGAME1",
 		"xbox": "https://www.xbox.com/fr-FR/games/store/prey/BQMVWCMB8P59/0001",
 		"steam": "https://store.steampowered.com/app/480490/Prey/"
@@ -75,6 +72,7 @@
 		"imageKey": "dishonoredDeathOfOutsider",
 		"cover": "./picts/dishonoredDeathOfOutsider/dishonoredDeathOfOutsiderCover.jpg",
 		"trailer": "https://www.youtube.com/watch?v=nNn2iOASy7c",
+		"gameplay": "https://www.youtube.com/watch?v=kg57ryQ_GT0&list=PLF2DC671C31193181&index=5",
 		"story": "Dans cet opus, Billie, une ancienne alliée de Daud (un assassin légendaire et ancien mentor de Billie), part en quête pour accomplir un dernier objectif : tuer l’Outsider, une mystérieuse entité dotée de pouvoirs surnaturels qui influence le destin des personnages et le cours de l’histoire depuis le premier jeu.",
 		"pictures": [
 			"./picts/dishonoredDeathOfOutsider/dishonoredDeathOfOutsiderGameplayFirst.png",
@@ -82,8 +80,6 @@
 			"./picts/dishonoredDeathOfOutsider/dishonoredDeathOfOutsiderGameplayThird.jpg",
 			"./picts/dishonoredDeathOfOutsider/dishonoredDeathOfOutsiderGameplayFour.jpg"
 		],
-		"jacket": "./picts/dishonoredDeathOfOutsider/dishonoredDeathOfOutsiderJacket.png",
-		"jacketWallpaper": "./picts/dishonoredDeathOfOutsider/dishonoredDeathOfOutsiderJacketWallpaper.png",
 		"playstation": "https://www.playstation.com/fr-fr/games/dishonored-death-of-the-outsider/",
 		"xbox": "https://www.xbox.com/fr-FR/games/store/dishonored-la-mort-de-loutsider/c5f2xdqppjkz",
 		"steam": "https://store.steampowered.com/app/614570/Dishonored_Death_of_the_Outsider/"
@@ -94,6 +90,7 @@
 		"imageKey": "dishonored2",
 		"cover": "./picts/dishonored2/dishonored2Cover.png",
 		"trailer": "https://www.youtube.com/watch?v=aTzTYSZETWc&list=PLF2DC671C31193181&index=27",
+		"gameplay": "https://www.youtube.com/watch?v=PXEB8_tBtaQ&list=PLF2DC671C31193181&index=19",
 		"story": "Dishonored 2 se déroule 15 ans après la défaite du Lord Régent, au moment où la Peste n'est plus qu'un mauvais souvenir. Un usurpateur d'un autre monde s'est emparé du trône de l'impératrice Emily Kaldwin, laissant le destin des Îles incertain. En incarnant Emily ou Corvo, vous voyagerez au-delà des rues emblématiques de Dunwall jusqu'à Karnaca, une ville côtière autrefois florissante détenant le secret qui permettra de faire revenir Emily au pouvoir. Armé de la marque de l'Outsider et de nouveaux pouvoirs surnaturels puissants, traquez vos ennemis et reprenez ce qui vous appartient.",
 		"pictures": [
 			"./picts/dishonored2/dishonored2GameplayFirst.png",
@@ -101,8 +98,6 @@
 			"./picts/dishonored2/dishonored2GameplayThird.jpg",
 			"./picts/dishonored2/dishonored2GameplayFour.jpg"
 		],
-		"jacket": "./picts/dishonored2/dishonored2Jacket.png",
-		"jacketWallpaper": "./picts/dishonored2/dishonored2JacketWallpaper.jpg",
 		"playstation": "https://store.playstation.com/fr-fr/product/EP1003-CUSA03603_00-DISHONOREDTWOPS4",
 		"xbox": "https://www.xbox.com/fr-FR/games/store/dishonored-2/9mw4rjdrsf78",
 		"steam": "https://store.steampowered.com/app/403640/Dishonored_2/"
@@ -115,17 +110,14 @@
 		"trailer": "https://www.youtube.com/watch?v=OwFJEJw7jSI&list=PLF2DC671C31193181&index=36",
 		"story": "Dishonored a pour toile de fond Dunwall, une ville industrielle de chasseurs de baleines où coexistent d'étranges technologies et un mysticisme transcendantal. Accusé à tort de l'assassinat de l'Impératrice, dont vous étiez le fidèle garde du corps, vous devenez un assassin redouté de tous qui se cache derrière son masque sinistre. En ces temps troublés, alors que la ville est frappée par une terrible épidémie et ploie sous le joug d'un gouvernement oppressif armé de technologies néo-industrielles, des forces obscures s'apprêtent à vous conférer des aptitudes surhumaines... mais à quel prix ? La vérité qui se cache derrière votre prétendue trahison est aussi trouble que les eaux qui entourent la ville. Vous ne retrouverez jamais votre vie passée.",
 		"pictures": [
-			"./picts/prey/preyGameplayFirst.png",
-			"./picts/prey/preyGameplaySecond.png",
-			"./picts/prey/preyGameplayThird.png",
-			"./picts/prey/preyGameplayFour.png"
+			"./picts/dishonored/dishonoredGameplayFirst.png",
+			"./picts/dishonored/dishonoredGameplaySecond.png",
+			"./picts/dishonored/dishonoredGameplayThird.png",
+			"./picts/dishonored/dishonoredGameplayFour.png"
 		],
-		"jacket": "./picts/prey/preyJacket.png",
-		"jacketWallpaper": "./picts/prey/preyJacketWallpaper.png",
-		"jacketDescription": "Dans Prey, vous vous réveillez au cours de l'année 2032, à bord de Talos I, une station spatiale en orbite autour de la lune. Vous êtes le sujet clef d'une expérience censée altérer l'humanité à jamais, mais la situation s'est transformée en cauchemar.",
-		"playstation": "https://store.playstation.com/fr-fr/product/EP1003-CUSA04482_00-PREYPS4FULLGAME1",
-		"xbox": "https://www.xbox.com/fr-FR/games/store/prey/BQMVWCMB8P59/0001",
-		"steam": "https://store.steampowered.com/app/480490/Prey/"
+		"playstation": "https://store.playstation.com/fr-lu/product/EP1003-CUSA02231_00-DISHONOREDGAMEEU",
+		"xbox": "https://www.xbox.com/fr-FR/games/store/dishonored-definitive-edition/C299QVC2BSJF",
+		"steam": "https://store.steampowered.com/sub/31292/"
 	},
 	{
 		"id": "8",
@@ -140,8 +132,6 @@
 			"./picts/arxFatalis/arxFatalisGameplayThird.png",
 			"./picts/arxFatalis/arxFatalisGameplayFour.png"
 		],
-		"jacket": "./picts/arxFatalis/arxFatalisJacket.png",
-		"jacketWallpaper": "./picts/arxFatalis/arxFatalisJacketWallpaper.png",
 		"steam": "https://store.steampowered.com/app/1700/Arx_Fatalis/"
 	}
 ]

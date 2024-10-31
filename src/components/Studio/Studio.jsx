@@ -52,10 +52,6 @@ const Studio = () => {
             {/* Détails du poste sélectionné */}
             {selectedJob && (
               <div className='job-details col-lg-8 col-md-12 col-sm-12'>
-                <div className='job-position'>
-                  <h3>{selectedJob.title}</h3>
-                  <p className='department'>{selectedJob.department}</p>
-                </div>
                 <h4>Responsabilités :</h4>
                 <ul>
                   {selectedJob.responsibilities.map((resp, index) => (

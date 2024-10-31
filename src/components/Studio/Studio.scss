@@ -1,3 +1,30 @@
+// Variables et mixin
+$firstColor: azure;
+$secondColor: #333;
+$thirdColor: black;
+$fourColor: #FF9317;
+$fiveColor: rgba(0, 0, 0, 0.7);
+$sixColor: rgba(255, 255, 255, 0.2);
+$firstFont: technovier;
+$secondFont: zrnic;
+
+@font-face {
+  font-family: $firstFont;
+  src: url('../../assets/fonts/Techovier Bold.otf');
+}
+
+@font-face {
+  font-family: $secondFont;
+  src: url('../../assets/fonts/Zrnic.otf');
+}
+
+@mixin formFont ($color, $family, $size, $spaccing) {
+  color: $color;
+  font-size: $size;
+  font-family: $family;
+  letter-spacing: $spaccing;
+}
+
 .studio {
   // TEAM
   .team {
@@ -8,40 +35,72 @@
     background-image: url('../../assets/picts/arkane/arkaneLyonFirstPict.png');
     position: relative;
 
+    @media screen and (max-width: 1275px) {
+      background-image: url('../../assets/picts/arkane/arkaneStudioLyon.png');
+    }
+
     .about {
       position: absolute; 
       bottom: 0; 
-      left: 0;
-      width: 100%;
-      max-width: 2200px;
-      background: rgba(0, 0, 0, 0.5); 
-      color: #f1f1f1;
-      padding: 20px; 
+      background: $fiveColor; 
+      color: $firstColor; 
+      width: 100%; 
+      padding: 20px;
+
+      @media screen and (max-width: 768px) {
+        padding: 15px 20px 0px 15px;
+        display: flex;
+        flex-direction: column;
+      }
 
       .description {
-        color: azure;
-        font-size: 1.4em;
         font-weight: bold;
-        margin: 0 auto; 
+        margin: 0 auto;
+        @include formFont($firstColor, $secondFont, 1.2em, 2px); 
+
+        @media screen and (max-width: 1121px) {
+          font-size: 1.0em;
+        }
+
+        @media screen and (max-width: 768px) {
+         font-size: 0.9em;
+         text-align: center;
+         margin-bottom: -10px;
+        }
       }
 
       button {
         float: right;
         border-radius: 8px;
         padding: 5px 15px;
-        border: 1px solid azure;
+        letter-spacing: 4px;
+        font-family: $firstFont;
+        border: 1px solid $firstColor;
         background: transparent;
         transition: all ease-in 0.6ms;
 
+        @media screen and (max-width: 1121px) {
+          font-size: 0.8em;
+        }
+
+        @media screen and (max-width: 941px) {
+          margin-top: 15px;
+        }
+
+        @media screen and (max-width: 768px) {
+          margin: 25px auto;
+        }
+
         a {
-          font-size: 1.2em;
-          color: azure;
+          font-size: 0.8em;
+          color: $firstColor;
           font-weight: bold;
           text-decoration: none;
         }
 
         &:hover {
           transform: scale(1.1);
+          box-shadow: 0px 0px 9px 7px $firstColor;
         }
       }
     }
@@ -49,34 +108,72 @@
   
   // PROJECT
   .project {
-    height: 500px;
+    height: 480px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('../../assets/picts/prey/preyJacketWallpaper.png');
 
+    @media screen and (max-width: 658px) {
+      height: 390px;
+    }
+
+    @media screen and (max-width: 514px) {
+      height: 280px;
+    }
+
+    @media screen and (max-width: 425px) {
+      height: 260px;
+    }
+
     h2 {
-      font-size: 2em;
-      color: azure;
       text-align: center;
       margin-bottom: 20px;
       padding-top: 20px;
+      @include formFont($firstColor, $firstFont, 1.9em, 4px);
+      text-shadow: 2px 2px 0 $fiveColor, 2px -2px 0 $fiveColor, -2px 2px 0 $fiveColor, -2px -2px 0 $fiveColor, 2px 0px 0 $fiveColor, 0px 2px 0 $fiveColor, -2px 0px 0 $fiveColor, 0px -2px 0 $fiveColor;
+
+      @media screen and (max-width: 425px) {
+        font-size: 1.4em;
+      }
     }
     
     .img-fluid {
-      display: block;
-      height: 380px;
+      height: 350px;
       margin: auto;
+      width: 100%;
+      display: block;
+      max-width: 800px; 
       opacity: 0.7;
       cursor: pointer;
-      max-width: 700px;
       border-radius: 5px;
-      border: 0px solid azure;
+      border: 0px solid $firstColor;
       transition: all ease-in 0.5ms;
+
+      @media screen and (max-width: 864px) {
+        max-width: 600px;
+      }
+
+      @media screen and (max-width: 658px) {
+        height: 280px;
+        max-width: 470px;
+      }
+
+      @media screen and (max-width: 514px) {
+        height: 160px;
+        max-width: 400px;
+      }
+
+      @media screen and (max-width: 425px) {
+        max-width: 320px;
+      }
+
+      @media screen and (max-width: 375px) {
+        max-width: 260px;
+      }
 
       &:hover {
         opacity: 1.0;
-        transform: scale(1.1);
       }
     }
   }
@@ -87,13 +184,17 @@
     background-image: url('../../assets/picts/arkane/lyonNigth.png'); 
     background-size: cover;
     background-position: center;
-    color: white;
+    color: $firstColor;
     text-align: center;
 
     h2 {
       margin-bottom: 20px;
-      font-size: 2.5em;
-      color: #fff;
+      @include formFont($firstColor, $firstFont, 1.9em, 4px);
+      text-shadow: 2px 2px 0 $fiveColor, 2px -2px 0 $fiveColor, -2px 2px 0 $fiveColor, -2px -2px 0 $fiveColor, 2px 0px 0 $fiveColor, 0px 2px 0 $fiveColor, -2px 0px 0 $fiveColor, 0px -2px 0 $fiveColor;
+
+      @media screen and (max-width: 425px) {
+        font-size: 1.4em;
+      }
     }
 
     .jobs-container {
@@ -101,8 +202,8 @@
       justify-content: center;
       max-width: 400px;
       margin: 0 auto;
-      background: rgba(0, 0, 0, 0.7);
-      border: 1px solid rgba(255, 255, 255, 0.2);
+      background: $fiveColor;
+      border: 1px solid $sixColor;
       padding: 20px;
       border-radius: 8px;
       transition: max-width 0.3s ease;
@@ -115,7 +216,8 @@
         flex: 1;
         max-width: 300px;
         text-align: left;
-        border-right: 1px solid rgba(255, 255, 255, 0.2);
+        padding-top: 10px;
+        border-right: 1px solid $sixColor;
         padding-right: 20px;
         display: flex;
         flex-direction: column;
@@ -124,18 +226,19 @@
         .titleJobs {
           cursor: pointer;
           padding: 10px;
-          border: 1px solid rgba(255, 255, 255, 0.2);
+          border: 1px solid $sixColor;
           border-radius: 4px;
           transition: background 0.3s, transform 0.2s;
+          @include formFont($firstColor, $secondFont, 1.2em, 3px);
 
           &:hover {
-            background: rgba(255, 255, 255, 0.1);
             transform: scale(1.02);
+            box-shadow: 0px 0px 9px 7px $fourColor;
           }
 
           &.active {
-            color: #ffffff;
-            background: #FF9317;
+            color: $firstColor;
+            background: $fourColor;
             font-weight: bold;
           }
         }
@@ -143,7 +246,7 @@
 
       .job-details {
         flex: 2;
-        height: 510px;
+        height: 560px;
         width: 100%;
         overflow: auto;
         padding-left: 50px;
@@ -151,39 +254,21 @@
         padding-bottom: 30px;
         text-align: left;
 
-        .job-position {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-
-          h3 {
-            font-size: 1.8em;
-            margin-bottom: 10px;
-            color: #f0c419;
-          }
-
-          .department {
-            font-size: 1.2em;
-            font-weight: bold;
-            color: #f0c419;
-            margin-bottom: 20px;
-          }
-        }
-
         h4 {
           margin-top: 40px;
-          font-size: 1.3em;
           text-decoration: underline;
+          @include formFont($firstColor, $secondFont, 1.7em, 3px); 
         }
 
         ul {
           list-style-type: disc;
           padding-left: 20px;
           margin: 10px 0;
-          color: #ddd;
+          color: $firstColor;
 
           li {
-            margin-bottom: 5px;
+            margin-bottom: 15px;
+            @include formFont($firstColor, $firstFont, 1.0em, 3px); 
           }
         }
 
@@ -192,17 +277,17 @@
           float: right;
           margin-top: 10px;
           padding: 10px 20px;
-          background-color: azure;
-          color: black;
+          background-color: $firstColor;
+          color: $thirdColor;
           text-decoration: none;
           font-weight: bold;
           border-radius: 5px;
           transition: background 0.3s;
 
           &:hover {
-            color: azure;
-            background-color: #FF9317;
-            box-shadow: 1px 1px 16px 9px #FF9317;
+            color: $firstColor;
+            background-color: $fourColor;
+            box-shadow: 1px 1px 16px 9px $fourColor;
           }
         }
       }
