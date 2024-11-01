@@ -3,6 +3,9 @@ $firstColor: azure;
 $secondColor: #333;
 $thirdColor: black;
 $fourColor: rgba(0, 0, 0, 0.7);
+$fiveColor: rgb(3, 8, 141);
+$sixColor: rgb(0, 86, 28);
+$sevenColor: rgb(49, 49, 49);
 $firstFont: technovier;
 $secondFont: zrnic;
 
@@ -27,28 +30,121 @@ $secondFont: zrnic;
   // PRESENT
   .present {
     height: 856px; 
+    position: relative;
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
+
+    &.marvelsBlade {
+      background-image: url('../../assets/picts/marvelsBlade/marvelsBladeCover.png');
+    }
+
+    &.redfall {
+      background-image: url('../../assets/picts/redfall/redfallCover.png');
+    }
+
+    &.deathloop {
+      background-image: url('../../assets/picts/deathloop/deathloop.png');
+    }
+      
+    &.prey {
+      background-image: url('../../assets/picts/prey/preyCover.png');
+    }
+
+    &.dishonoredDeathOfOutsider {
+      background-image: url('../../assets/picts/dishonoredDeathOfOutsider/dishonoredDeathOfOutsiderCover.jpg');
+    }
+
+    &.dishonored2 {
+      background-image: url('../../assets/picts/dishonored2/dishonored2Cover.png');
+    }
+
+    &.dishonored {
+      background-image: url('../../assets/picts/dishonored/dishonoredCover.jpg');
+    }
+
+    &.arxFatalis {
+      background-image: url('../../assets/picts/arxFatalis/arxFatalisCover.png');
+    }
+
+    @media screen and (max-width: 768px) {
+      padding: 10px;
+    }
+
+    @media screen and (max-width: 716px) {
+      &.marvelsBlade {
+        background-image: url('../../assets/picts/marvelsBlade/marvelsBladeMobile.png');
+      }
+
+      &.redfall {
+        background-image: url('../../assets/picts/redfall/redfallJacket.png');
+      }
+
+      &.deathloop {
+        background-image: url('../../assets/picts/deathloop/deathloopJacket.png');
+      }
+      
+      &.prey {
+        background-image: url('../../assets/picts/prey/preyMobile.png');
+      }
+
+      &.dishonoredDeathOfOutsider {
+        background-image: url('../../assets/picts/dishonoredDeathOfOutsider/dishonoredDeathOfOutsiderMobile.png');
+      }
+
+      &.dishonored2 {
+        background-image: url('../../assets/picts/dishonored2/dishonored2Mobile.png');
+      }
+
+      &.dishonored {
+        background-image: url('../../assets/picts/dishonored/dishonoredMobile.png');
+      }
+
+      &.arxFatalis {
+        background-image: url('../../assets/picts/arxFatalis/arxFatalisJacket.png');
+      }
+    }
+
     .story {
       position: absolute; 
       bottom: 0; 
-      background: $thirdColor; 
+      left: 0;
+      background: $fourColor; 
       color: $firstColor; 
       width: 100%; 
-      padding: 20px; 
-      
+      padding: 20px;
+
       .pitch {
         font-weight: bold;
-        margin: 0 auto; 
-        @include formFont($firstColor, $secondFont, 1.2em, 2px);
+        margin: 0 auto;
+        @include formFont($firstColor, $secondFont, 1em, 2px);
+
+        @media screen and (max-width: 768px) {
+         font-size: 0.9em;
+         text-align: center;
+         margin-bottom: -10px;
+         overflow: auto;
+         height: 60px;
+        }
+
+        @media screen and (max-width: 425px) {
+         font-size: 0.7em;   
+        }
       }
+
       .listVideo {
         float: right;
-        margin-top: 15px;
+        margin-top: 10px;
+
+        @media screen and (max-width: 768px) {
+          display: flex;
+          justify-content: center;
+          float: none; 
+          margin-top: 15px;
+        }
 
         button {
-          margin: 0px 10px;
+          margin: 10px 8px 4px 8px;
           border-radius: 8px;
           padding: 5px 15px;
           letter-spacing: 4px;
@@ -57,41 +153,59 @@ $secondFont: zrnic;
           background: transparent;
           transition: all ease-in 0.6ms;
 
+          &:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 0px 5px 3px $firstColor;
+          }
+
           a {
-            font-size: 0.8em;
+            font-size: 0.9em;
             color: $firstColor;
-            font-weight: bold;
             text-decoration: none;
           }
 
-          &:hover {
-            transform: scale(1.1);
-            box-shadow: 0px 0px 9px 7px $firstColor;
+          @media screen and (max-width: 425px) {
+            padding: 4px 8px;
+            font-size: 0.7em;
           }
         }
       }
     }
   }
 
+  // PICT
   .pict {
-    background-size: cover; 
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
+    padding: 10px;
+
     .swiper-content {
-      padding: 80px 120px 40px 120px;
+      padding: 20px 40px;
+
       .mySwiper2 {
         width: 100%;
-        height: 720px;
+        height: 600px;
 
         .swiper-slide img {
           width: 100%;
           height: 100%;
+          object-fit: cover;
+        }
+
+        @media screen and (max-width: 768px) {
+          height: 350px;
+        }
+
+        @media screen and (max-width: 480px) {
+          height: 180px;
         }
       }
 
       .mySwiper {
+        margin-top: 10px;
         background-color: $thirdColor;
+
         .swiper-slide {
           opacity: 0.5;
           cursor: pointer;
@@ -102,8 +216,15 @@ $secondFont: zrnic;
 
           img {
             width: 100%;
-            height: 150px;
-            object-fit: cover;
+            height: 120px;
+
+            @media screen and (max-width: 768px) {
+              height: 60px;
+            }
+
+            @media screen and (max-width: 480px) {
+              height: 50px;
+            }
           }
         }
       }
@@ -111,83 +232,63 @@ $secondFont: zrnic;
 
     .listBtnSupport {
       display: flex;
-      justify-content: center; 
-      align-items: center; 
-      gap: 10px; 
+      justify-content: center;
+      gap: 10px;
       padding-bottom: 20px;
 
-      .btnPlaystation {
-        cursor: pointer;
-        padding: 4px 10px;
-        border-radius: 5px;
-        background-color: rgb(3, 8, 141);
-        transition: all ease-in 0.5ms;
-
-        a {
-          text-decoration: none;
-          @include formFont($firstColor, $secondFont, 1.0em, 2px);
-
-          i {
-            font-size: 1.2em;
-            color: $firstColor;
-            margin-right: 10px;
-            margin-top: 3px;
-            text-decoration: none;
-          }
-        }
-
-        &:hover {
-          transform: scale(1.2);
-        }
+      @media screen and (max-width: 348px) {
+        flex-direction: column;
+        align-items: center; 
+        text-align: center;
       }
 
-      .btnXbox {
-        cursor: pointer;
-        padding: 4px 10px;
+      button {
+        display: flex;
+        align-items: center;
+        padding: 6px 14px;
         border-radius: 5px;
-        background-color: rgb(0, 86, 28);
-        transition: all ease-in 0.5ms;
+        color: $firstColor;
+        text-decoration: none;
+        font-size: 0.9em;
+        transition: all 0.3s ease;
+
+        @media screen and (max-width: 348px) {
+        }
 
         a {
           text-decoration: none;
           @include formFont($firstColor, $secondFont, 1.0em, 2px);
+        }
 
-          i {
-            font-size: 1.2em;
-            color: $firstColor;
-            margin-right: 10px;
-            margin-top: 3px;
-            text-decoration: none;
-          }
+        i {
+          margin-right: 8px;
+          font-size: 1.2em;
         }
 
         &:hover {
-          transform: scale(1.2);
-        }
-      }
-
-      .btnSteam {
-        cursor: pointer;
-        padding: 4px 10px;
-        border-radius: 5px;
-        background-color: rgb(49, 49, 49);
-        transition: all ease-in 0.5ms;
-
-        a {
-          text-decoration: none;
-          @include formFont($firstColor, $secondFont, 1.0em, 2px);
-
-          i {
-            font-size: 1.2em;
-            color: $firstColor;
-            margin-right: 10px;
-            margin-top: 3px;
-            text-decoration: none;
-          }
+          transform: scale(1.1);
         }
 
-        &:hover {
-          transform: scale(1.2);
+        &.btnPlaystation {
+          background-color: $fiveColor;
+        }
+
+        &.btnXbox {
+          background-color: $sixColor;
+        }
+
+        &.btnSteam {
+          background-color: $sevenColor;
+        }
+
+        @media screen and (max-width: 768px) {
+          padding: 5px 12px;
+          font-size: 0.85em;
+        }
+
+        @media screen and (max-width: 480px) {
+          padding: 4px 10px;
+          font-size: 0.8em;
         }
       }
     }

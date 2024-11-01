@@ -36,7 +36,7 @@ $secondFont: zrnic;
     position: relative;
 
     @media screen and (max-width: 1275px) {
-      background-image: url('../../assets/picts/arkane/arkaneStudioLyon.png');
+      background-image: url('../../assets/picts/arkane/arkaneStudioAustin.png');
     }
 
     .about {
@@ -66,6 +66,8 @@ $secondFont: zrnic;
          font-size: 0.9em;
          text-align: center;
          margin-bottom: -10px;
+         overflow: auto;
+         height: 60px;
         }
       }
 
@@ -180,117 +182,166 @@ $secondFont: zrnic;
 
   // JOBS
   .jobs {
-    padding: 40px;
-    background-image: url('../../assets/picts/arkane/lyonNigth.png'); 
-    background-size: cover;
-    background-position: center;
-    color: $firstColor;
-    text-align: center;
+  padding: 40px;
+  background-image: url('../../assets/picts/arkane/lyonNigth.png');
+  background-size: cover;
+  background-position: center;
+  color: $firstColor;
+  text-align: center;
 
-    h2 {
-      margin-bottom: 20px;
-      @include formFont($firstColor, $firstFont, 1.9em, 4px);
-      text-shadow: 2px 2px 0 $fiveColor, 2px -2px 0 $fiveColor, -2px 2px 0 $fiveColor, -2px -2px 0 $fiveColor, 2px 0px 0 $fiveColor, 0px 2px 0 $fiveColor, -2px 0px 0 $fiveColor, 0px -2px 0 $fiveColor;
+  h2 {
+    margin-bottom: 20px;
+    @include formFont($firstColor, $firstFont, 1.9em, 4px);
+    text-shadow: 2px 2px 0 $fiveColor, 2px -2px 0 $fiveColor, -2px 2px 0 $fiveColor, -2px -2px 0 $fiveColor, 2px 0px 0 $fiveColor, 0px 2px 0 $fiveColor, -2px 0px 0 $fiveColor, 0px -2px 0 $fiveColor;
+  }
 
-      @media screen and (max-width: 425px) {
-        font-size: 1.4em;
+  .jobs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: $fiveColor;
+    border: 1px solid $sixColor;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: max-width 0.3s ease;
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+
+    .job-titles {
+      flex: 1;
+      max-width: 300px;
+      border-right: 1px solid $sixColor;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 20px;
+
+      @media screen and (max-width: 768px) {
+        border-right: none;
+        display: block;
+        margin: auto;
+        border-bottom: 1px solid $sixColor;
+      }
+
+      .titleJobs {
+        padding: 10px;
+        border: 1px solid $sixColor;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background 0.3s, transform 0.2s;
+        @include formFont($firstColor, $secondFont, 1.2em, 3px);
+
+        @media screen and (max-width: 375px) {
+          font-size: 1.0em;
+        }
+        
+        &:hover {
+          background-color: lighten($fourColor, 10%);
+          transform: scale(1.02);
+        }
+
+        &.active {
+          color: $firstColor;
+          background: $fourColor;
+          font-weight: bold;
+        }
       }
     }
 
-    .jobs-container {
-      display: flex;
-      justify-content: center;
-      max-width: 400px;
-      margin: 0 auto;
-      background: $fiveColor;
-      border: 1px solid $sixColor;
+    .job-details {
+      flex: 2;
       padding: 20px;
-      border-radius: 8px;
-      transition: max-width 0.3s ease;
+      text-align: left;
+      overflow-y: auto;
+      max-height: 580px;
 
-      &.open {
-        max-width: 1200px;
+      @media screen and (max-width: 768px) {
+        padding: 20px 10px;
+        max-height: unset;
+        text-align: center;
       }
 
-      .job-titles {
-        flex: 1;
-        max-width: 300px;
-        text-align: left;
-        padding-top: 10px;
-        border-right: 1px solid $sixColor;
-        padding-right: 20px;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
+      h3 {
+        font-size: 1.5em;
+        color: $fourColor;
+        @include formFont($fourColor, $firstFont, 1.5em, 2px);
+        text-transform: uppercase;
 
-        .titleJobs {
-          cursor: pointer;
-          padding: 10px;
-          border: 1px solid $sixColor;
-          border-radius: 4px;
-          transition: background 0.3s, transform 0.2s;
-          @include formFont($firstColor, $secondFont, 1.2em, 3px);
+        @media screen and (max-width: 768px) {
+          margin-bottom: -20px;
+        }
 
-          &:hover {
-            transform: scale(1.02);
-            box-shadow: 0px 0px 9px 7px $fourColor;
-          }
-
-          &.active {
-            color: $firstColor;
-            background: $fourColor;
-            font-weight: bold;
-          }
+        @media screen and (max-width: 320px) {
+          font-size: 1.2em;
+          margin-bottom: -20px;
         }
       }
 
-      .job-details {
-        flex: 2;
-        height: 560px;
-        width: 100%;
-        overflow: auto;
-        padding-left: 50px;
-        padding-right: 20px;
-        padding-bottom: 30px;
-        text-align: left;
+      h4 {
+        margin-top: 20px;
+        text-decoration: underline;
+        font-weight: bold;
+        color: $firstColor;
+        @include formFont($firstColor, $secondFont, 1.3em, 2px);
 
-        h4 {
+        @media screen and (max-width: 768px) {
+          font-size: 1.5em;
           margin-top: 40px;
-          text-decoration: underline;
-          @include formFont($firstColor, $secondFont, 1.7em, 3px); 
         }
 
-        ul {
-          list-style-type: disc;
-          padding-left: 20px;
-          margin: 10px 0;
+        @media screen and (max-width: 320px) {
+          font-size: 1.2em;
+        }
+      }
+
+      ul {
+        list-style-type: disc;
+        padding-left: 10px;
+        color: $firstColor;
+
+        @media screen and (max-width: 768px) {
+          list-style-type: none;
+        }
+
+        li {
+          margin-bottom: 10px;
+          font-size: 1em;
+          line-height: 1.4;
+          margin-right: 10px;
+          @include formFont($firstColor, $firstFont, 1em, 1px);
+
+          @media screen and (max-width: 768px) {
+            font-size: 1.2em;
+          }
+
+          @media screen and (max-width: 425px) {
+            font-size: 0.8em;
+            margin-bottom: 20px;
+          }
+        }
+      }
+
+      .apply-button {
+        position: relative;
+        float: right;
+        margin-top: 10px;
+        padding: 10px 20px;
+        background-color: $firstColor;
+        color: $thirdColor;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        transition: background 0.3s;
+
+        &:hover {
           color: $firstColor;
-
-          li {
-            margin-bottom: 15px;
-            @include formFont($firstColor, $firstFont, 1.0em, 3px); 
-          }
-        }
-
-        .apply-button {
-          position: relative;
-          float: right;
-          margin-top: 10px;
-          padding: 10px 20px;
-          background-color: $firstColor;
-          color: $thirdColor;
-          text-decoration: none;
-          font-weight: bold;
-          border-radius: 5px;
-          transition: background 0.3s;
-
-          &:hover {
-            color: $firstColor;
-            background-color: $fourColor;
-            box-shadow: 1px 1px 16px 9px $fourColor;
-          }
+          background-color: $fourColor;
         }
       }
     }
   }
+}
+
 }

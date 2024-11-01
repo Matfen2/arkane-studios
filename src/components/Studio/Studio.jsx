@@ -32,44 +32,44 @@ const Studio = () => {
         </NavLink>
       </div>
       {/* JOBS */}
-      <div className='jobs' id='jobs'>
+      <div className="jobs" id="jobs">
         <h2>Carrières</h2>
         <div className={`jobs-container ${selectedJob ? 'open' : ''}`}>
-          <div className='row'>
-            {/* Liste des titres de postes */}
-            <div className='job-titles col-lg-4 col-md-12 col-sm-12'>
-              {jobs.map((job) => (
-                <p
-                  key={job.id}
-                  className={`titleJobs ${selectedJob?.id === job.id ? 'active' : ''}`}
-                  onClick={() => showDetailsJob(job)}
-                >
-                  {job.title}
-                </p>
-              ))}
-            </div>
-
-            {/* Détails du poste sélectionné */}
-            {selectedJob && (
-              <div className='job-details col-lg-8 col-md-12 col-sm-12'>
-                <h4>Responsabilités :</h4>
-                <ul>
-                  {selectedJob.responsibilities.map((resp, index) => (
-                    <li key={index}>{resp}</li>
-                  ))}
-                </ul>
-                <h4>Qualifications :</h4>
-                <ul>
-                  {selectedJob.qualifications.map((qual, index) => (
-                    <li key={index}>{qual}</li>
-                  ))}
-                </ul>
-                <a href={selectedJob.hrefSite} target="_blank" rel="noopener noreferrer" className='apply-button'>
-                  Postuler en ligne
-                </a>
-              </div>
-            )}
+          <div className="job-titles">
+            {jobs.map((job) => (
+              <p
+                key={job.id}
+                className={`titleJobs ${selectedJob?.id === job.id ? 'active' : ''}`}
+                onClick={() => showDetailsJob(job)}
+              >
+                {job.title}
+              </p>
+            ))}
           </div>
+
+          {selectedJob && (
+            <div className="job-details">
+              <h3>{selectedJob.title}</h3>
+
+              <h4>Responsabilités :</h4>
+              <ul>
+                {selectedJob.responsibilities.map((resp, index) => (
+                  <li key={index}>{resp}</li>
+                ))}
+              </ul>
+
+              <h4>Qualifications :</h4>
+              <ul>
+                {selectedJob.qualifications.map((qual, index) => (
+                  <li key={index}>{qual}</li>
+                ))}
+              </ul>
+
+              <a href={selectedJob.hrefSite} target="_blank" rel="noopener noreferrer" className="apply-button">
+                Postuler en ligne
+              </a>
+            </div>
+          )}
         </div>
       </div>
     </div>

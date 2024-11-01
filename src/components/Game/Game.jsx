@@ -9,16 +9,6 @@ import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
 
-// Importation de toutes les images de couverture
-import marvelsBlade from '../../assets/picts/marvelsBlade/marvelsBlade.png';
-import redfall from '../../assets/picts/redfall/redfallCover.png';
-import deathloop from '../../assets/picts/deathloop/deathloopCover.jpg';
-import prey from '../../assets/picts/prey/preyCover.png';
-import dishonoredDeathOfOutsider from '../../assets/picts/dishonoredDeathOfOutsider/dishonoredDeathOfOutsiderCover.jpg';
-import dishonored2 from '../../assets/picts/dishonored2/dishonored2Cover.png';
-import dishonored from '../../assets/picts/dishonored/dishonoredCover.jpg';
-import arxFatalis from '../../assets/picts/arxFatalis/arxFatalisCover.png';
-
 // Importation de toutes les images de jacketWallpaper
 import marvelsBladeJacketWallpaper from '../../assets/picts/marvelsBlade/marvelsBladeJacketWallpaper.png';
 import redfallJacketWallpaper from '../../assets/picts/redfall/redfallJacketWallpaper.png';
@@ -79,18 +69,6 @@ import arxFatalisGameplaySecond from '../../assets/picts/arxFatalis/arxFatalisGa
 import arxFatalisGameplayThird from '../../assets/picts/arxFatalis/arxFatalisGameplayThird.png';
 import arxFatalisGameplayFour from '../../assets/picts/arxFatalis/arxFatalisGameplayFour.png';
 
-
-// Mapping des images avec les identifiants
-const images = {
-  marvelsBlade,
-  redfall,
-  deathloop,
-  prey,
-  dishonoredDeathOfOutsider,
-  dishonored2,
-  dishonored,
-  arxFatalis,
-};
 
 // Mapping des images de gameplay pour chaque jeu
 const pictures = {
@@ -163,7 +141,7 @@ const Game = () => {
 
   return (
     <div className="game">
-      <div className="present" style={{ backgroundImage: `url(${images[gameInfo.imageKey]})` }}>
+      <div className={`present ${gameInfo.imageKey}`}>
         <div className='story'>
           <p className="pitch">{gameInfo.story}</p>
           <div className='listVideo'>
