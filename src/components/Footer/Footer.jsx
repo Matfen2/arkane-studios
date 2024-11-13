@@ -5,23 +5,23 @@ const Footer = () => {
   return (
     <div className='footer'>
       <p className='copy'>© Copyright 2024 Arkane Studio</p>
-      <div className='listSocial'>
+      <ul className='listSocial'>
         <li>
-          <a href='https://www.facebook.com/ArkaneStudios/'>
+          <a href='https://www.facebook.com/ArkaneStudios/' aria-label='Facebook Arkane Studio'>
             <i class="fa-brands fa-facebook-f"></i>
           </a>
         </li>
         <li>
-          <a href='https://x.com/arkanestudios'>
+          <a href='https://x.com/arkanestudios' aria-label='X Arkane Studio'>
             <i class="fa-brands fa-twitter"></i>
           </a>
         </li>
         <li>
-          <a href='https://www.linkedin.com/company/arkane-studios/posts/?feedView=all'>
+          <a href='https://www.linkedin.com/company/arkane-studios/posts/?feedView=all' aria-label='Linkedin Arkane Studio'>
             <i class="fa-brands fa-linkedin-in"></i>
           </a>
         </li>
-      </div>
+      </ul>
     </div>
   )
 }

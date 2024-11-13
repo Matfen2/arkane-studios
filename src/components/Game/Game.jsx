@@ -168,41 +168,41 @@ const Game = () => {
           backgroundImage: `url(${jacketWallpapers[gameInfo.imageKey]})`,
         }}
       >
-        <div className='swiper-content'>
-          <Swiper
-            style={{
-              '--swiper-navigation-color': '#fff',
-              '--swiper-pagination-color': '#fff',
-            }}
-            spaceBetween={10}
-            navigation={true}
-            thumbs={{ swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null }}
-            modules={[FreeMode, Navigation, Thumbs]}
-            className="mySwiper2"
-          >
-            {pictures[gameInfo.imageKey]?.map((picture, index) => (
-              <SwiperSlide key={index}>
-                <img src={picture} className="img-fluid w-100" alt={`slide-${index + 1}`} />
-              </SwiperSlide>
-            ))}
-          </Swiper>
-          <Swiper
-            onSwiper={setThumbsSwiper}
-            spaceBetween={10}
-            slidesPerView={4}
-            freeMode={true}
-            watchSlidesProgress={true}
-            modules={[FreeMode, Navigation, Thumbs]}
-            className="mySwiper"
-          >
-            {pictures[gameInfo.imageKey]?.map((picture, index) => (
-              <SwiperSlide key={index}>
-                <img src={picture} className="img-fluid w-100" alt={`thumbnail-${index + 1}`} />
-              </SwiperSlide>
-            ))}
-          </Swiper>
-        </div>
-        <div className="listBtnSupport">
+      <div className='swiper-content'>
+      <Swiper
+        style={{
+          '--swiper-navigation-color': '#fff',
+          '--swiper-pagination-color': '#fff',
+        }}
+        spaceBetween={10}
+        navigation={true}
+        thumbs={{ swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null }}
+        modules={[FreeMode, Navigation, Thumbs]}
+        className="mySwiper2"
+      >
+        {pictures[gameInfo.imageKey]?.map((picture, index) => (
+          <SwiperSlide key={index}>
+            <img src={picture} className="img-fluid w-100" alt={`slide-${index + 1}`} />
+          </SwiperSlide>
+        ))}
+      </Swiper>
+      <Swiper
+        onSwiper={setThumbsSwiper}
+        spaceBetween={10}
+        slidesPerView={4}
+        freeMode={true}
+        watchSlidesProgress={true}
+        modules={[FreeMode, Navigation, Thumbs]}
+        className="mySwiper"
+      >
+        {pictures[gameInfo.imageKey]?.map((picture, index) => (
+          <SwiperSlide key={index}>
+            <img src={picture} className="img-fluid w-100" alt={`thumbnail-${index + 1}`} />
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </div>
+      <div className="listBtnSupport">
           {gameInfo.playstation && (
             <button type="button" className="btnPlaystation">
               <a href={gameInfo.playstation} target="_blank" rel="noopener noreferrer">
