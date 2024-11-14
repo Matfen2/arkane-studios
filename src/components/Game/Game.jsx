@@ -13,7 +13,7 @@ import 'swiper/css/thumbs';
 import marvelsBladeJacketWallpaper from '../../assets/picts/marvelsBlade/marvelsBladeJacketWallpaper.png';
 import redfallJacketWallpaper from '../../assets/picts/redfall/redfallJacketWallpaper.png';
 import deathloopJacketWallpaper from '../../assets/picts/deathloop/deathloopJacketWallpaper.png';
-import preyJacketWallpaper from '../../assets/picts/prey/preyJacketWallpaper.png';
+import preyJacketWallpaper from '../../assets/picts/prey/preyJacketWallpaper.webp';
 import dishonoredDeathOfOutsiderJacketWallpaper from '../../assets/picts/dishonoredDeathOfOutsider/dishonoredDeathOfOutsiderJacketWallpaper.png';
 import dishonored2JacketWallpaper from '../../assets/picts/dishonored2/dishonored2JacketWallpaper.png';
 import dishonoredJacketWallpaper from '../../assets/picts/dishonored/dishonoredJacketWallpaper.png';
