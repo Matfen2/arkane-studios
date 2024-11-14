@@ -3,14 +3,14 @@ import { useNavigate } from 'react-router-dom';
 import './Card.scss';
 
 // Importation de toutes les images
-import marvelsBlade from '../../assets/picts/marvelsBlade/marvelsBlade.png';
-import redfall from '../../assets/picts/redfall/redfall.png';
-import deathloop from '../../assets/picts/deathloop/deathloop.png';
-import prey from '../../assets/picts/prey/prey.png';
-import dishonoredDeathOfOutsider from '../../assets/picts/dishonoredDeathOfOutsider/dishonoredDeathOfOutsider.png';
-import dishonored2 from '../../assets/picts/dishonored2/dishonored2.png';
-import dishonored from '../../assets/picts/dishonored/dishonored.png';
-import arxFatalis from '../../assets/picts/arxFatalis/arxFatalis.png';
+import marvelsBlade from '../../assets/picts/marvelsBlade/marvelsBlade.webp';
+import redfall from '../../assets/picts/redfall/redfall.webp';
+import deathloop from '../../assets/picts/deathloop/deathloop.webp';
+import prey from '../../assets/picts/prey/prey.webp';
+import dishonoredDeathOfOutsider from '../../assets/picts/dishonoredDeathOfOutsider/dishonoredDeathOfOutsider.webp';
+import dishonored2 from '../../assets/picts/dishonored2/dishonored2.webp';
+import dishonored from '../../assets/picts/dishonored/dishonored.webp';
+import arxFatalis from '../../assets/picts/arxFatalis/arxFatalis.webp';
 
 // Mapping des images avec les identifiants
 const images = {

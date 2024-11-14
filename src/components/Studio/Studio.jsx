@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import '../Studio/Studio.scss'
 import jobs from '../../data/jobs.json'
-import nextProject from '../../assets/picts/marvelsBlade/marvelsBlade.png'
+import nextProject from '../../assets/picts/marvelsBlade/marvelsBlade.webp'
 import { NavLink } from 'react-router-dom'
 
 const Studio = () => {

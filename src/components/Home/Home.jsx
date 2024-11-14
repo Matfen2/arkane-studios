@@ -3,7 +3,7 @@ import '../Home/Home.scss';
 import games from '../../data/games.json';
 import { NavLink } from 'react-router-dom';
 import Card from '../Card/Card';
-import studioLyon from '../../assets/picts/arkane/arkaneStudioLyon.png';
+import studioLyon from '../../assets/picts/arkane/arkaneStudioLyon.webp';
 
 const Home = () => {
   return (

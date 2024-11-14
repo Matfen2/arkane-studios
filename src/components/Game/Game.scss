@@ -36,35 +36,35 @@ $secondFont: zrnic;
     background-repeat: no-repeat;
 
     &.marvelsBlade {
-      background-image: url('../../assets/picts/marvelsBlade/marvelsBladeCover.png');
+      background-image: url('../../assets/picts/marvelsBlade/marvelsBladeCover.webp');
     }
 
     &.redfall {
-      background-image: url('../../assets/picts/redfall/redfallCover.png');
+      background-image: url('../../assets/picts/redfall/redfallCover.webp');
     }
 
     &.deathloop {
-      background-image: url('../../assets/picts/deathloop/deathloop.png');
+      background-image: url('../../assets/picts/deathloop/deathloopCover.webp');
     }
       
     &.prey {
-      background-image: url('../../assets/picts/prey/preyCover.png');
+      background-image: url('../../assets/picts/prey/preyCover.webp');
     }
 
     &.dishonoredDeathOfOutsider {
-      background-image: url('../../assets/picts/dishonoredDeathOfOutsider/dishonoredDeathOfOutsiderCover.jpg');
+      background-image: url('../../assets/picts/dishonoredDeathOfOutsider/dishonoredDeathOfOutsiderCover.webp');
     }
 
     &.dishonored2 {
-      background-image: url('../../assets/picts/dishonored2/dishonored2Cover.png');
+      background-image: url('../../assets/picts/dishonored2/dishonored2Cover.webp');
     }
 
     &.dishonored {
-      background-image: url('../../assets/picts/dishonored/dishonoredCover.jpg');
+      background-image: url('../../assets/picts/dishonored/dishonoredCover.webp');
     }
 
     &.arxFatalis {
-      background-image: url('../../assets/picts/arxFatalis/arxFatalisCover.png');
+      background-image: url('../../assets/picts/arxFatalis/arxFatalisCover.webp');
     }
 
     @media screen and (max-width: 768px) {
@@ -185,7 +185,7 @@ $secondFont: zrnic;
 
       .mySwiper2 {
         width: 100%;
-        height: 600px;
+        height: 1000px;
 
         .swiper-slide img {
           width: 100%;

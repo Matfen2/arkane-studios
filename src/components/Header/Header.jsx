@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Header/Header.scss';
 import { NavLink } from 'react-router-dom'; 
-import LogoStudio from '../../assets/picts/arkane/arkaneStudioLogo.png';
+import LogoStudio from '../../assets/picts/arkane/arkaneStudioLogo.webp';
 
 const Header = () => {
   return (
