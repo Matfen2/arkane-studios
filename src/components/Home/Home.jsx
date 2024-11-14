@@ -20,7 +20,7 @@ const Home = () => {
       <div className='studio'>
         <h2>STUDIO</h2>
         <NavLink to="/studio" className='studio-link'>
-          <img src={studioLyon} alt='studioLyon' className='img-fluid w-100' />
+          <img src={studioLyon} alt='studioLyon' className='img-fluid w-100' loading="lazy" />
           <div className='location'>
             <p>Lyon, France</p>
           </div>
